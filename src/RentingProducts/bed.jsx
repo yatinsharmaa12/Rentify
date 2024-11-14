@@ -1,4 +1,4 @@
-import "./Rentingproducts.css"
+import "./RentingProduct.css"
 
 const Bed = () => {
     return ( 

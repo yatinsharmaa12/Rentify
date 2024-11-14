@@ -3,7 +3,7 @@ import axios from 'axios';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-regular-svg-icons'; 
 import { faHeart as faSolidHeart } from '@fortawesome/free-solid-svg-icons'; 
-import boxData from '../assets1/FittnessData.json';
+import boxData from '../assets1/FitnessData.json';
 import "./item.css";
 
 const FitnessList = () => {
