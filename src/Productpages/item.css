@@ -1,0 +1,147 @@
+
+.text{
+    color:#787878;
+    font-size: 16px;
+    font-weight: 400;
+    margin:0;
+    margin-bottom:50px;
+    margin-left: 115px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.heading{
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom:0px;
+}
+
+.shop-section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #fff;
+}
+.item-name{
+    font-size: 20px;
+    padding-bottom:0px;
+    margin-top:0px;
+}
+.box{
+    height:460px;
+    border:1px solid #e6e6e6;
+    width:370px;
+    background-color: white;
+    padding: 20px 0px 20px;
+    margin-top: 15px;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+
+.box-content{
+    margin-left:1rem;
+    margin-right:1rem;
+}
+
+.p{
+    display:float;
+    float:left;
+
+}
+.p1{
+    display:float;
+    float:right;
+    color:rgb(168, 158, 158);
+}
+  
+ .wishlist-icon {
+    position: absolute;
+    top: 5px;
+    right: 5px; 
+   
+    width: 25px; 
+    height: 25px;
+    margin: 10px; 
+  }
+  .box-content {
+    position: relative;
+  }
+  .box-img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden; 
+    display: inline-block; 
+    height: 300px;
+    background-size: cover;
+    margin-bottom: 1rem;
+    border-radius: 5%;
+  } 
+  
+
+  .box-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .view-button {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    /* transform: translate(-50%, -50%); */
+    background-color: rgba(255, 255, 255, 0.7); 
+    border: 1.5px solid black;
+    padding: 10px 20px;
+    border-radius: 25px;
+    opacity: 0; 
+    /* transition: opacity 0.3s; */
+    cursor:pointer;
+  }
+  .view-button:hover{
+    background-color:#ffc18c ;
+    /* transition: 0.3s; */
+  }
+  
+  .box-img:hover .view-button {
+    opacity: 1; 
+  }
+  .wishlist-icon:hover {
+    transform: scale(1.1); 
+    backdrop-filter: blur(10px);
+  }
+  .message-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .stock{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top:10rem;
+    font-size: 30px;
+  
+    margin-bottom: 1rem;
+  }
+  .out-stock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .out-stock button{
+    height: 3rem;
+    background-color: #ffc18c;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10rem;
+    font-size: 20px;
+  }

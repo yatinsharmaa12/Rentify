@@ -1,0 +1,59 @@
+
+.rent-text{
+    color:rgb(196, 183, 183);
+    margin-bottom:50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    padding-top: 0px;
+}
+.rent-shop-section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #fff;
+}
+.newbox{
+    /* height:400px;
+    border:2px solid rgb(230, 225, 225);
+    width:370px;
+    background-color: white;
+    padding: 20px 0px 20px;
+    margin-top: 15px;
+    border-radius: 5%; */
+    /* box-shadow:2px 2px 2px rgb(174, 170, 170); */
+
+    height:460px;
+    border:1px solid #e6e6e6;
+    width:370px;
+    background-color: white;
+    padding: 20px 0px 20px;
+    margin-top: 15px;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.newbox:hover{
+    scale: 1.05;
+}
+.rent-box-img{
+    height: 280px;
+    background-size: cover;
+    margin-bottom: 1rem;
+    border-radius: 5%;
+  
+}
+
+.rent-box-content{
+    margin-left:1rem;
+    margin-right:1rem;
+}
+
+.rent-p{
+    display:float;
+    float:left;
+
+}
+.rent-p1{
+    display:float;
+    float:right;
+    color:rgb(168, 158, 158);
+}
