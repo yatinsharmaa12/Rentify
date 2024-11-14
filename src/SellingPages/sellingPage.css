@@ -1,0 +1,98 @@
+.sells{
+    background-color: #FFBB70;
+}
+.sellContainer {
+    margin: 0rem auto;
+    background-color: #fff;
+    padding: 20px;  
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 900px;
+}
+
+.sellContainer label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.sellContainer select,
+.sellContainer input[type="text"],
+.sellContainer input[type="number"]{
+    width: 100%;
+    padding: 2px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.sellContainer input[type="file"]{
+    width: 111%;
+    padding: 2px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: 0px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.sellContainer button {
+    background-color: #c7764a;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   
+}
+
+.sellContainer button:hover {
+    background-color: #b74406dc;
+}
+
+.sellContainer table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.sellContainer th,
+.sellContainer td {
+    padding: 5px;
+    text-align: left;
+    width:20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.sellContainer th {
+    background-color: #f2f2f2;
+}
+
+.sellContainer tr:hover {
+    background-color: #f1f1f1;
+}
+
+.sellContainer p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+    margin-top: 20px;
+}
+.mysellings button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #c7764a;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left:68rem;
+    margin-bottom: 1.0rem;
+}
+.mysellings button:hover{
+    background-color: #b74406dc;
+}
