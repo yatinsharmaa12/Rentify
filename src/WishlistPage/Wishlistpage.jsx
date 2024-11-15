@@ -3,7 +3,7 @@ import axios from 'axios';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart as faSolidHeart } from '@fortawesome/free-solid-svg-icons';
 import { faTrashAlt } from '@fortawesome/free-solid-svg-icons';
-import "./Wishlist.css"; // Import CSS file for styling
+import "./Wishlistpage.css"; // Import CSS file for styling
 
 const WishlistPage = ({ updateLikedBoxes }) => {
   const [wishlist, setWishlist] = useState([]);

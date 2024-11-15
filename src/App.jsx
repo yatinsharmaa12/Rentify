@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Navbar from './components/navbar'
 import Footer from './components/footer'
 import Landing from './LandingPage/landing'
-import Products from './Products/products'
+import Products from './Products/Product.jsx'
 import "react-toastify/dist/ReactToastify.css";
 
 function App() {
