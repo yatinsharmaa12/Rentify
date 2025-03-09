@@ -1,4 +1,4 @@
-import "./Rentingproduct.css"
+import "./RentingProduct.css"
 
 const WashingMachine = () => {
     return ( 

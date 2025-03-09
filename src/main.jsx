@@ -5,7 +5,7 @@ import './index.css'
 import Layout from './Layout.jsx'
 import { RouterProvider,createBrowserRouter } from 'react-router-dom'
 
-import Account from './Account/account.jsx'
+import Account from './Account/Account.jsx'
 import SignUp from './Login/signup.jsx'
 import Login from './Login/login.jsx'
 // import About from './AboutUs/AboutUs.jsx'
@@ -13,7 +13,7 @@ import FurnitureList from './Productpages/FurnitureList.jsx'
 import ApplianceList from './Productpages/ApplianceList.jsx'
 
 import BicycleList from './Productpages/BicycleList.jsx'
-import ContactUs from './ContactUs/ContactUs.jsx'
+import ContactUs from './ContactUs/Contactus.jsx'
 
 import ElectronicList from './Productpages/ElectronicList.jsx'
 import FittnessList from './Productpages/FitnessList.jsx'
@@ -22,7 +22,7 @@ import Bed from './RentingProducts/bed.jsx'
 import WashingMachine from './RentingProducts/WashingMachine.jsx'
 import Beddetails from './productdetails/beddetail.jsx'
 import Myproducts from './SellingPages/myproducts.jsx'
-import WishlistPage from './WishlistPage/WishlistPage.jsx'
+import WishlistPage from './WishlistPage/Wishlistpage.jsx'
 
 import { ToastContainer } from 'react-toastify'
 

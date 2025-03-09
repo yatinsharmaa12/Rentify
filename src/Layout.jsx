@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import { Outlet } from "react-router-dom";
-import Account from "./Account/account";
+import Account from "./Account/Account.jsx";
 import { useLocation } from 'react-router-dom';
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";

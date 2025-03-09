@@ -3,7 +3,7 @@ import { useState } from 'react'
 // import viteLogo from '/vite.svg'
 import Navbar from './components/navbar'
 import Footer from './components/footer'
-import Landing from './LandingPage/landing'
+import Landing from './LandingPage/Landing.jsx'
 import Products from './Products/Product.jsx'
 import "react-toastify/dist/ReactToastify.css";
 

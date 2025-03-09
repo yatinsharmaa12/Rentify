@@ -1,5 +1,5 @@
 import React from 'react';
-import BootstrapCarousel from './carousel';
+import BootstrapCarousel from './Carousel';
 import { Link, NavLink } from "react-router-dom";
 
 const Landing = () => {
